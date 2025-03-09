@@ -7,6 +7,17 @@ header {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+footer {
+    margin: 10px, 10px 10px 10px;
+}
+
+footer h4 {
+    padding-left: 15%;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
 p {
     font-size: 20px;
 }
@@ -84,4 +95,8 @@ img {
 
 .clear {
     clear: both;
+}
+
+.textright {
+    text-align: right;
 }
