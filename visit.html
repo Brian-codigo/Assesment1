@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet.css">
+    
+    
+    
     <title>Turist Interest</title>
 </head>
 
 <body>
-    <header>
+    <header class="header-image">
         <h1>Caracas!</h1>
     </header>
     <nav class = "navbar">
@@ -22,38 +25,40 @@
 
     <main>
         <h2>Visit</h2>
-
-            <img src="images/Teleferico.jpg" alt="cable car" class="left" width="500px" height="300px">
-                    <h3> Ride to the Top of El Ávila</h3>
-            <p>No visit to Caracas is complete without a trip to <a href="https://en.wikipedia.org/wiki/El_%C3%81vila_National_Park"> El Ávila National Park (Waraira Repano)</a>. Take the Teleférico de Caracas, a scenic cable car ride, to the summit, where you’ll find cool mountain breezes, stunning panoramic views, and charming restaurants serving hot chocolate and fresh strawberries with cream. For adventure seekers, hiking trails lead to breathtaking waterfalls and hidden viewpoints.</p><br>
-
-            <div class="textright">
-                    <h3>Step Back in Time in the Historic Center</h3>
-            <p>Walk the same streets where Simón Bolívar, the Liberator of South America, once stood. Start at Plaza Bolívar, the beating heart of the city, surrounded by colonial-era buildings like the Caracas Cathedral and the Casa Natal de Bolívar, the birthplace of Venezuela’s national hero. Just a short stroll away, explore El Panteón Nacional, the final resting place of Bolívar and other national figures, inside a majestic hall with a beautifully painted ceiling.</p><br>
+    <div class="container my-4"> <!-- Adds margin around the layout -->
+        <div class="row g-3"> <!-- g-3 adds spacing between columns -->
+            
+            <!-- 7-column section -->
+            <div class="col-lg-7 col-md-7 col-sm-12 p-4 bg-light border rounded" id="info">
+                <p>Caracas, the bustling capital of Venezuela, is a city of contrasts. Nestled between the towering Ávila Mountain and the Caribbean coastline, it offers a mix of colonial history, modern architecture, and rich cultural heritage. Walking through its streets, you’ll encounter lively plazas, street vendors selling traditional arepas, and murals reflecting the city’s revolutionary past. One of the most iconic sites is Plaza Bolívar, where visitors can explore Simón Bolívar’s childhood home, now a museum filled with artifacts from Venezuela’s fight for independence. Not far from the city center, El Ávila National Park provides a refreshing escape, offering hiking trails, panoramic views, and a cable car ride that transports visitors to the charming mountain village of Galipán. Despite its challenges, Caracas remains a city full of life, energy, and an undeniable charm that captivates those who visit.</p>
             </div>
 
-                    <h3>Immerse Yourself in Art & Culture</h3>
-            <p>Caracas is a paradise for art lovers. Visit the Museum of Contemporary Art of Caracas, home to masterpieces by Picasso, Monet, and Venezuela’s own Carlos Cruz-Diez. For a night of theater or ballet, head to the Teresa Carreño Cultural Complex, a stunning venue where world-class performances come to life.</p><br>
-            <div class="textright">
+            <!-- 5-column section -->
+            <div class="col-lg-5 col-md-5 col-sm-12 p-4 bg-secondary text-white border rounded">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#" onclick="changeContent('mountain')">Avila</a>
+                </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="changeContent('coast')">Coast</a>
+                </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="changeContent('plaza')">Plaza Bolívar</a>
+                </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="changeContent('food')">Food</a>
+                </li>
+                </ul>
 
-            <img src="images/Arepas.jpg" alt="Venezuela Food" class="right" width="500px" height="300px">
-                    <h3>Taste the Flavors of Venezuela</h3>
-            <p>Savor the city’s delicious gastronomy! Try the famous arepas, golden corn pockets stuffed with everything from cheese to shredded beef, or indulge in crispy tequeños, Venezuela’s beloved cheese sticks. In <a href="https://i.pinimg.com/originals/54/81/79/548179ab57ed0b0aa955e9c6c351c1c6.jpg">El Hatillo</a>, a charming colonial-style village on the outskirts of Caracas, you’ll find quaint cafés and restaurants serving traditional dishes in a relaxed, picturesque setting.</p><br>
+                <div id="display-image-container" class="centre">
+                    <img id="display-image" src="images/Caracas night.jpeg" alt="Caracas" class="centre">
+                </div>
             </div>
 
-                    <h3>Shop, Stroll & Experience Local Life</h3>
-            <p>For a taste of everyday Caracas, walk down Boulevard de Sabana Grande, a lively pedestrian street filled with shops, bookstores, and street performers. If you're looking for high-end shopping, Centro San Ignacio and Sambil Caracas offer luxury brands, entertainment, and fine dining.</p><br>
+        </div>
+    </div>
 
-            <div class="textright">
-                    <h3>Escape to the Caribbean</h3>
-            <p>Just a short drive from the city, the Venezuelan coast awaits! Head to <a href="https://en.wikipedia.org/wiki/La_Guaira">La Guaira</a>, where golden beaches, fresh seafood, and warm Caribbean waters provide the perfect getaway from the city buzz.</p><br>
-            </div>
-
-            <img src="images/Caracas night.jpeg" alt="NightLife">
-
-            <h3 class="centre"><b>Why Visit Caracas?</b></h3>
-            <p>Caracas is more than just a capital—it’s an experience. Whether you’re exploring its rich history, hiking its majestic mountains, enjoying its vibrant nightlife, or tasting its incredible food, this city will leave you with unforgettable memories.</p><br>
-
+    <script src="script.js"></script>
     </main>
 
     <footer>

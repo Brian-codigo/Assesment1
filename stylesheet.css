@@ -1,10 +1,36 @@
 header {
     padding: 40px;
-    background-color: rgb(219, 170, 8);
-    color:ghostwhite;
+    color:goldenrod;
     margin: 0px;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-image {
+    background-image: url("images/header photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;}
+
+.container{
+    display: block;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+figure{
+    float: left;
+    clear: both;
+    text-align: center;
+    margin-right: 10px;
+}
+
+figcaption {
+  background-color: firebrick;
+  color: #FFFFFF;
+  font: italic medium sans-serif;
+  text-align: center;
 }
 
 footer {
@@ -12,10 +38,11 @@ footer {
 }
 
 footer h4 {
-    padding-left: 15%;
-    padding-top: 5%;
+    padding-left: 10%;
+    padding-top: 0;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 15px;
+    text-align: center;
 }
 
 p {
@@ -28,7 +55,7 @@ h1{
 
 h2{
     font-size: 80px;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     font-weight: bold;
     text-align: center;
 }
@@ -44,19 +71,25 @@ body {
 }
 
 main {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    background-color: navajowhite;
+    padding: 10px;
+    overflow: hidden;
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
     display: block;
-    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border: solid 5px burlywood;
 }
 
 .navbar{
     background-color: rgb(237, 139, 100);
+    margin: 0px;
 }
 
 .navbar ul{
@@ -71,6 +104,7 @@ img {
     padding: 15px;
     display: block;
     text-align: center;
+    margin: 0px;
 }
 
 .navbar a:hover{
@@ -80,11 +114,21 @@ img {
 .navbar ul li{
     float: left;
     width: 33.3333%;
+    font-size: 20px;
+    font-style: italic;
 }
 
+.nav-tabs{
+        display: flex;
+        justify-content: left;
+        gap: auto;
+        padding: 0;
+        background-color: burlywood;
+}
 .left {
     float: left;
     clear: both;
+    display: flexbox;
 }
 
 .right {
@@ -93,7 +137,11 @@ img {
 }
 
 .centre {
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: auto;
 }
 
 .clear {
@@ -103,3 +151,10 @@ img {
 .textright {
     text-align: right;
 }
+
+#display-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
