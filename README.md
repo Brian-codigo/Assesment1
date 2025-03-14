@@ -12,15 +12,49 @@ Some challenges I faced were on how to change the content when clicking on the n
 
 # Features 
 Homepage – Introduction to Caracas History Page – A brief history of the city Visit Page – Recommended places to visit Responsive Design – Styled with CSS
+
+
 # File Structure /Assesment1 
-│── home.html # Main landing page
+
+
+│── home.html # Main landing page 
+
+
 │── history.html # Historical background of Caracas
+
+
 │── visit.html # Travel recommendations
+
+
 │── stylesheet.css # Website styling
+
+
 │── script.js # Basic script for visit.html 
+
+
 │── images/ # Contains images used in the site
+
+
 │── README.md # Documentation
-How to View the Website Download or clone this repository. Open home.html in your web browser.
-Technologies Used HTML – For structuring content CSS – For styling the pages JS - For adding dynamic interactions
-Credits Images used in this project are sourced from various online sources. https://www.w3schools.com/
+
+
+How to View the Website 
+
+
+Download or clone this repository. Open home.html in your web browser.
+Technologies Used 
+
+HTML – For structuring content 
+
+CSS – For styling the pages 
+
+JS - For adding dynamic interactions
+
+
+
+
+Credits
+
+
+Images used in this project are sourced from various online sources. https://www.w3schools.com/
 
